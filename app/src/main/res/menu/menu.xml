@@ -3,11 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/menu1"
+        android:id="@+id/add"
         android:icon="@android:drawable/ic_menu_help"
         android:title="Add"/>
 <!--        app:showAsAction="ifRoom|withText"/>-->
 
-    <item android:title="Setting"/>
+    <item
+        android:id="@+id/setting"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Setting"/>
 
 </menu>
